@@ -1,0 +1,75 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial;
+    font-size: 17px;
+}
+
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
+}
+
+.content {
+    position: fixed;
+    width: 100%;
+    padding-top:  100px;
+    font-size: 40px;
+}
+#wel{
+	font-family: 'Freckle Face', cursive; 
+}
+#ar{
+	font-family: 'Freckle Face', cursive;
+	font-size: 100px;
+
+}
+#myBtn {
+    width: 200px;
+    font-size: 18px;
+    padding: 10px;
+    border: none;
+    background: #000;
+    color: #fff;
+    cursor: pointer;
+}
+.buton{
+	width: 300px;
+    font-size: 28px;
+    
+    border: none;
+    background: none;
+    color: white;
+    position: fixed;
+    text-decoration: none;
+font-family: 'Permanent Marker', cursive;
+
+}
+#bt{
+        font-family: 'Permanent Marker', cursive;
+	
+	padding-top: 500px;
+
+}
+#fr1{
+position:fixed;
+
+}
+#fr2{
+position:fixed;
+padding-left:650px;
+}
+#do{
+    font-family: 'Permanent Marker', cursive;
+position: fixed;
+
+
+
+font-size: 28px; 
+}

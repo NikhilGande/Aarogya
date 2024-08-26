@@ -1,0 +1,47 @@
+/*body{
+	background:url(21.jpg);
+	background-repeat: no-repeat;
+	background-position: center;  
+	background-size: cover; 
+
+}*/
+
+body{
+	
+ background-image: url(for.png);
+  
+  background-position: center center;
+  
+  
+  background-repeat: no-repeat;
+  
+  background-attachment: fixed;
+  
+  
+  background-size: cover;
+  
+  
+  background-color:#464646;
+  
+   
+    background: url(for.png) center center cover no-repeat fixed;
+    }
+
+
+
+#form{
+	padding-top:80px;
+	//margin: auto auto auto auto;
+	font-family: 'Sirin Stencil', cursive;
+	font-size: 20px;
+
+}
+#si{
+	padding-left: 100px;
+}
+#sig{
+	text-align: center;
+}
+#s{
+	box-sizing: 10%;
+}

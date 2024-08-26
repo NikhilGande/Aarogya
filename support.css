@@ -1,0 +1,40 @@
+#su2{
+	font-family: 'Freckle Face', cursive;
+}
+#su{
+	font-family: 'Rancho', cursive;
+	font-size: 20px;
+}
+#su1{
+	font-family: 'Monoton', cursive;
+	
+	font-size: 20px;
+}
+
+
+body{
+	
+ background-image: url(b1.png);
+  
+  background-position: center center;
+  
+  
+  background-repeat: no-repeat;
+  
+  background-attachment: fixed;
+  
+  
+  background-size: cover;
+  
+  
+  background-color:#464646;
+  
+   
+    background: url(b1.png) center center cover no-repeat fixed;
+    }
+
+
+.feed{
+font-color:white;
+}
+	

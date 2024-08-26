@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="signup1.css">
+	<link href="https://fonts.googleapis.com/css?family=Rock+Salt" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Freckle+Face" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <link rel="stylesheet" type="text/css" href="bootstrap.css">
+        <title>AAROGYA</title>
+</head>
+<body> 
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <a class="navbar-brand" href="frontend.html">AAROGYA</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+     <!-- <li class="nav-item active">
+        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+      </li>-->
+      <li class="nav-item active">
+        <a class="nav-link" href="about.html">ABOUT US</a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" href="contact.html">CONTACT US</a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" href="support.html">FEEDBACK</a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" href="terms.html">TERMS AND CONDITIONS</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          FEATURES
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+        <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="signup.html">USER REGISTRATION</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="signup1.html">DONOR REGISTRATION</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="login.html">SEARCH FOR A BLOOD DONOR</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="login1.html">SEARCH FOR A BLOOD BANK</a>
+          <div class="dropdown-divider"></div>
+          <!--<a class="dropdown-item" href="#">Something else here</a>-->
+        </div>
+      </li>
+      <!--<li class="nav-item">
+        <a class="nav-link disabled" href="#">Disabled</a>
+      </li>-->
+    </ul>
+<!--<form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    </form>-->
+  </div>
+</nav>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+
+
+
+        <!-- <iframe width="360" height="215" src="https://www.youtube.com/embed/rolXvtMg7CI?rel=0&amp;controls=0&amp;showinfo=0&amp;start=10&autoplay=1" frameborder="0" allow=" encrypted-media" id="fr3"></iframe>-->
+        <div class="container" align="center">
+	<!--<div id="si1" align="center">-->
+        <h1 id="si2" ><em><font color="black">DONOR	REGISTRATION</font></em></h1>
+	<font color="black"><form action="donorregistration.php" method="post">
+	
+		<div class="form-group">
+		      <label for="name" class="sig1"><strong><h4>NAME:</h4></strong></label>
+		      <input id="name" name="first" type="text" placeholder="Name" required pattern="[A-Za-z]{ ,1,}" title="Name should not contain any special characters " class="form-control">
+		</div>
+		<div class="form-group">
+		      <label for="age" class="sig1"><strong><h4>AGE:</h4></strong></label>
+		     <input id="age" name="age" type="text" placeholder="your age" required pattern="{0-101}" title="Please enter your exact age " class="form-control">
+		</div>
+		<div class="form-group">
+		      <label for="email" class="sig1"><strong><h4>EMAIL ID:</h4></strong></label>
+		      <input name="username"  id="email" type="email" placeholder="your email" required class="form-control">
+		</div>
+		<div class="form-group">
+		      <label for="phno" class="sig1"><strong><h4>PHONE NUMBER:</h4></strong></label>
+		    <input name="phno"  id="phno" type="text" placeholder="your phone number" required pattern=".{10}" title="please enter your correct phone number" class="form-control">
+		</div>
+		<div class="form-group">
+		     <label for="address" class="sig1"><strong><h4>ADDRESS:</h4></strong></label>
+<textarea rows="5" cols="50" placeholder="enter your address" class="form-control">
+</textarea>
+		</div>
+		<div class="form-group">
+		     
+		    <label for="place" class="sig1"><strong><h4>PLACE:</h4></strong></label>
+		    <input name="place"  id="place" type="text" placeholder="Ex:kukatpally" required title="Please enter your Location" class="form-control">
+
+		</div>
+		<div class="form-group">
+		     
+		   
+		    <label for="city" class="sig1"><strong><h4>CITY:</h4></strong></label>
+		    <input name="city"  id="city" type="text" placeholder="Ex:hyderabad" required title="Please enter your City" class="form-control">
+
+		</div>
+		<div class="form-group">
+		     
+		    <label for="blood" class="sig1"><strong><h4>BLOOD GROUP:</h4></strong></label>
+		    <input id="blood" type="text" name="blood" required placeholder="your blood group" title="please enter your blood group"  class="form-control">
+		</div>
+		
+		
+		<!--<table>
+			<td>
+				<tr>
+					<p ><strong>
+		     <label for="name" class="sig1">NAME:</label>
+		     <input id="name" name="first" type="text" placeholder="Name" required pattern="[A-Za-z]{ ,1,}" title="Name should not contain any special characters " >
+	    </strong></p>
+	</tr>
+</td>
+<tr>
+	<td>
+	    <p ><strong>
+		     <label for="age" class="sig1">AGE:</label>
+		     <input id="age" name="age" type="text" placeholder="your age" required pattern="{0-101}" title="Please enter your exact age " >
+	    </strong></p>
+	</td>
+</tr>
+<tr>
+	<td>
+	    <p ><strong>
+
+			 <label for="email" class="sig1">EMAIL ID:</label>
+			 <input name="username"  id="email" type="email" placeholder="your email" required>
+		</strong></p>
+	</td>
+</tr>
+<tr>
+	<td>
+
+		<p ><strong>
+		    <label for="phno" class="sig1">PHONE NUMBER:</label>
+		    <input name="phno"  id="phno" type="text" placeholder="your phone number" required pattern=".{10}" title="please enter your correct phone number">
+		</strong></p></td>
+	</tr>
+	<tr>
+		<td>
+
+		<p ><strong>
+<label for="address" class="sig1">ADDRESS:</label>
+<textarea rows="10" cols="50" placeholder="enter your address">
+</textarea>
+		  
+
+		</strong></p >
+	</td>
+</tr>
+<tr>
+	<td>
+		<p><strong>
+
+
+		    <label for="place" class="sig1">PLACE:</label>
+		    <input name="place"  id="place" type="text" placeholder="Ex:kukatpally" required title="">
+
+		</strong></p ></td>
+	</tr>
+	<tr>
+		<td>
+		<p><strong>
+
+
+		    <label for="city" class="sig1">CITY:</label>
+		    <input name="city"  id="city" type="text" placeholder="Ex:hyderabad" required title="">
+
+		</strong></p >
+	</td>
+</tr>
+<tr>
+	<td>
+		<p><strong>
+		    <label for="blood" class="sig1">BLOOD GROUP:</label>
+		    <input id="blood" type="text" name="blood" required placeholder="your blood group" title="please enter your blood group"  >
+		</strong></p>
+	</td>
+</tr>
+<tr>
+	<td>-->
+
+	   
+
+		    <button type="submit" value"submit" class="btn btn-danger btn-lg" align="center">REGISTER ME AS A DONOR :)</button> 
+	
+	</td>
+</tr>
+
+    </form></table></font>
+    </div>
+    <h1 id="tx"><em>LET'S GROW BETTER BY SAVING ONE'S LIFE !!</em></h1>
+
+</div>
+
+</body>
+</html>

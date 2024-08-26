@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="support.css">
+	<link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Monoton" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Freckle+Face" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Rancho" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	<link rel="stylesheet" type="text/css" href="bootstrap.css">
+
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <a class="navbar-brand" href="frontend.html">AAROGYA</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+   <!--   <li class="nav-item active">
+        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+      </li>-->
+      <li class="nav-item active">
+        <a class="nav-link" href="about.html">ABOUT US</a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" href="contact.html">CONTACT US</a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" href="support.html">FEEDBACK</a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" href="terms.html">TERMS AND CONDITIONS</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          FEATURES
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+        <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="signup.html">USER REGISTRATION</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="signup1.html">DONOR REGISTRATION</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="login.html">SEARCH FOR A BLOOD DONOR</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="login1.html">SEARCH FOR A BLOOD BANK</a>
+          <div class="dropdown-divider"></div>
+          <!--<a class="dropdown-item" href="#">Something else here</a>-->
+        </div>
+      </li>
+      <!--<li class="nav-item">
+        <a class="nav-link disabled" href="#">Disabled</a>
+      </li>-->
+    </ul>
+<!--<form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    </form>-->
+  </div>
+</nav>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+
+
+
+
+<div class="feed">
+<form action="feedback.php" method="post" >
+
+	<h2 id="su2"><font color="white">PLEASE ENTER YOUR VALUABLE SUGGESTIONS HERE:</font> </h2>
+	<p id="su"><strong><font color="white">
+		IF THERE IS ANY MISTAKE BY US OR ANY PROBLEM OR NO MISTAKES ,ANY REVIEWS YOU CAN COMMENT IT HERE IN THE COMMENT BOX WE ARE READY TO HERE YOUR ALL TYPES OF COMMENTS  :   
+	</font></strong></p>
+<div class="container" align="center">
+	<p ><font color="white">
+		<label for="na" id="su1" align="center">NAME : </label>
+		<input id="na" type="text" name="na" placeholder="enter your name" required class="form-control">
+	</font></p>
+	<p ><font color="white">
+		<label for="com" id="su1" align="center">COMMENT : </label>
+		<textarea id="com"  rows="10" cols="50" type="text" name="com" placeholder="enter your valuable comments here" required class="form-control"></textarea>
+	</font></p>
+        <p ><font color="white">
+                 <label for="em" id="su1" align="center">EMAILID : </label>
+		<input id="em" type="text" name="email" placeholder="enter your emailid" required class="form-control">
+       </font></p>
+        <p align="center" >
+             <button type="submit" value="submit" class="btn btn-warning btn-lg">SUBMIT</button>
+        </p>
+</div>
+</form>
+</div>
+</body>
+</html>

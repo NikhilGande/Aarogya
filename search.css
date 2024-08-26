@@ -1,0 +1,74 @@
+.search{
+	
+	padding-top: 0px;
+font-size:25px;
+}
+#su{
+	padding-left: 0px;
+}
+body{
+	background: url(10.jpg);
+	background-repeat: no-repeat;
+	background: url(10.jpg);
+	background-repeat: no-repeat;
+}
+.cit{
+	padding: 550px 350px 0px 350px;
+	padding-top: 0px;
+font-size:25px;
+}
+#se{
+padding-top:250px;
+}
+se1{
+padding-top:0px;
+}
+.se2{
+font-family: 'Audiowide', cursive;
+}
+
+.dropbtn {
+    background-color: #3498DB;
+    color: rgb(100,220,150);
+    padding: 20px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropbtn:hover, .dropbtn:focus {
+    background-color: white;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 160px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown a:hover 
+{
+	background-color: #ddd;
+}
+
+.show 
+{
+	display:block;
+}
+

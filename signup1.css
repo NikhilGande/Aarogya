@@ -1,0 +1,64 @@
+ #si1{
+	padding:180px 250px 30px 0px;
+	font-color:rgb(255,255,255);
+	font-family: 'Rock Salt', cursive;
+	font-size: 13px;
+
+}
+
+
+#up{
+	padding-left:67px;
+}
+#tx{
+	text-align: center;
+
+}
+/*body{
+	background:url(25.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: unset; 
+
+
+	
+	  
+}*/
+
+body{
+	
+ background-image: url(81.png);
+  
+  background-position: center center;
+  
+  
+  background-repeat: no-repeat;
+  
+  background-attachment: fixed;
+  
+  
+  background-size: cover;
+  
+  
+  background-color:#464646;
+  
+   
+    background: url(81.png) center center cover no-repeat fixed;
+    }
+
+
+
+
+
+.sig1{
+	font-color:white;
+}
+#si2{
+     font-size:50px;
+     font-family:'Freckle Face', cursive;
+     padding-top: 60px;
+}
+#fr3{
+position:absolute;
+padding-left:550px;
+}

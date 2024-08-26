@@ -1,0 +1,108 @@
+
+body{
+	
+ background-image: url(b2.png);
+  
+  background-position: center center;
+  
+  
+  background-repeat: no-repeat;
+  
+  background-attachment: fixed;
+  
+  
+  background-size: cover;
+  
+  
+  background-color:#464646;
+  
+   
+    background: url(b2.png) center center cover no-repeat fixed;
+    }
+
+
+
+
+#a2{
+	padding-left: 30px;
+}
+#a3{
+	padding-left: 60px;
+}
+#a4{
+	padding-left: 90px;
+}
+#a5{
+	padding-left: 120px;
+}
+#a6{
+	padding-left: 150px;
+}
+#a7{
+	padding-left: 180px;
+}
+.ab{
+	font-size: 25px;
+}
+.abt1{
+	padding-left: 0px;
+	font-family: 'Freckle Face', cursive;
+	font-size: 30px;
+
+}
+
+
+}
+	 
+	
+.om{
+	font-family: 'Freckle Face', cursive;
+	font-size: 70px;
+}
+.dropbtn {
+    background-color: #3498DB;
+    color: rgb(100,220,150);
+    padding: 20px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropbtn:hover, .dropbtn:focus {
+    background-color: white;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 160px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown a:hover 
+{
+	background-color: #ddd;
+}
+
+.show 
+{
+	display:block;
+}
+
+
+

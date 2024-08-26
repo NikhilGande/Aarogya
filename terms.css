@@ -1,0 +1,27 @@
+body{
+	
+ background-image: url(b6.png);
+  
+  background-position: center center;
+  
+  
+  background-repeat: no-repeat;
+  
+  background-attachment: fixed;
+  
+  
+  background-size: cover;
+  
+  
+  background-color:#464646;
+  
+   
+    background: url(b6.png) center center cover no-repeat fixed;
+    }
+
+
+
+.omnamah{
+font-family: 'Freckle Face',cursive;
+	font-size: 40px;
+}

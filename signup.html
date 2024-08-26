@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="signup.css">
+	<link rel="stylesheet" type="text/css" href="bootstrap.css">
+	<link href="https://fonts.googleapis.com/css?family=Sirin+Stencil" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        
+    <title>AAROGYA</title>
+    
+    
+<script language="javascript">
+function showHint(str) 
+{
+    if (f2.Password.value==str)
+ {
+        document.getElementById("txtHint").innerHTML = "  matched ";
+        return;
+    } 
+else
+{
+document.getElementById("txtHint").innerHTML = " not matched ";
+        return;
+}
+
+}
+ 
+</script>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <a class="navbar-brand" href="frontend.html">AAROGYA</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+     <!-- <li class="nav-item active">
+        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+      </li>-->
+      <li class="nav-item active">
+        <a class="nav-link" href="about.html">ABOUT US</a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" href="contact.html">CONTACT US</a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" href="support.html">FEEDBACK</a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" href="terms.html">TERMS AND CONDITIONS</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          FEATURES
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+        <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="signup.html">USER REGISTRATION</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="signup1.html">DONOR REGISTRATION</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="login.html">SEARCH FOR A BLOOD DONOR</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="login1.html">SEARCH FOR A BLOOD BANK</a>
+          <div class="dropdown-divider"></div>
+          <!--<a class="dropdown-item" href="#">Something else here</a>-->
+        </div>
+      </li>
+      <!--<li class="nav-item">
+        <a class="nav-link disabled" href="#">Disabled</a>
+      </li>-->
+    </ul>
+<!--<form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    </form>-->
+  </div>
+</nav>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+
+
+
+	
+	
+
+	<!--<div id="form" align="center">-->
+	 <div class="container" align="center" id="form">
+		<h1 align="center"><font color="white">SIGN IN:</font></h1>
+
+	<form action="x.php" method="post" name="f2"><font color="white">
+	
+	
+	<div class="form-group">
+		      <label for="fname"><strong><h4>FIRST NAME:</h4></strong></label>
+		<input id="fname" name="first" type="text" placeholder="FIRST NAME"  pattern="[A-Za-z]{ ,1,}" title="Name should not contain any special characters " required class="form-control">
+		</div>
+		<div class="form-group">
+		     <label for="lname"><strong><h4>LAST NAME:</h4></strong></label>
+		<input id="lname" name="lastname" type="text" placeholder="LAST NAME" pattern="[A-Za-z]{ ,1,}" title="Name should not contain any special characters " required class="form-control">
+		</div>
+		
+		
+<div class="form-group">
+		    <label ><strong><h4>GENDER:</h4></strong></label>
+		    <br>
+		   
+   		    <input id="Male" name="gender" type="radio" value="male" required >
+		    <label for="Male"><strong><h4>MALE</h4></strong></label>
+
+		    
+		    <input id="Female" name="gender" type="radio" value="female" required >
+		    <label for="Female"><strong><h4>FEMALE</h4></strong></label> 
+		    
+		    <input id="Others" name="gender" type="radio" value="others" required >
+		    <label for="Others"><strong><h4>OTHERS</h4></strong></label>
+
+</div>
+		<div class="form-group">
+		          <label for="email"><strong><h4>EMAIL ID:</h4></strong></label>
+			    <input name="username"  id="email" type="email" placeholder="your email" required class="form-control">
+			
+		</div>
+	
+	<div class="form-group">
+		         <label for="Password"><strong><h4>PASSWORD:</h4></strong></label>
+			    <input name="Password"  id="Password" type="Password" placeholder="your Password" pattern=".{8,}"  title="Min 8 characters are required" required class="form-control">
+			
+		</div>
+	<div class="form-group">
+		          <label for="cPassword"><strong><h4>CONFIRM PASSWORD:</h4></strong></label>
+		    <input name="cPassword"  id="cPassword" type="Password" placeholder="confirm your Password" pattern=".{8,}"  title="Min 8 characters are required" required onkeyup="showHint(this.value)" class="form-control">
+
+<span id="txtHint" color="red"></span>
+			
+		</div>
+	
+	<div class="form-group">
+		           <label for="dob"><strong><h4>DATE OF BIRTH:</h4></strong></label>
+		    <input id="dob" type="date" name="dob" required class="form-control">
+			
+		</div>
+	
+	<div class="form-group">
+		          <label for="blood"><strong><h4>BLOOD GROUP:</h4></strong></label>
+		    	<select id="blood" name="blood" placeholder="your blood group" required class="form-control">
+		    		<option>select</option>
+		    		<option>A+</option>
+		    		<option>A-</option>
+		    		<option>B+</option>
+		    		<option>B-</option>
+		    		<option>AB+</option>
+		    		<option>AB-</option>
+		    		<option>O+</option>
+		    		<option>O-</option>
+		    	</select>
+		    	
+			
+		</div>
+	
+	<div class="form-group">
+		           <label for="address" id="te"><strong><h4>ADDRESS:</h4></strong></label>
+		        <textarea id="address" rows="10" column="50" placeholder="your address"
+		        required name="text" class="form-control"></textarea>
+		        
+			
+		</div>
+	
+	<div class="form-group">
+		           <label for="location"><strong><h4>LOCATION:</h4></strong></label>
+		    	<input id="location" type="text" name="location" placeholder="EX:kukatpally" required class="form-control">
+		        
+			
+		</div>
+	
+	<div class="form-group">
+		           <label for="city"><strong></h4>CITY:</h4></strong></label>
+		    	<input id="city" type="text" name="city" placeholder="Ex:hyderabad" required class="form-control">
+		   		        
+			
+		</div>
+	
+	<div class="form-group">
+		           <label for="phno"><strong><h4>PHONE NUMBER:</h4></strong></label>
+		        <input name="phno"  id="phno" type="text" placeholder="your phone number" pattern=".{10,11}" title="please enter your correct phone number" required class="form-control">
+		        
+			
+		</div>
+	
+	 <div class="form-group form-check">
+    <input type="checkbox" class="form-check-input"  name="checkbox" id="exampleCheck1" required class="form-control">
+    <label class="form-check-label" for="exampleCheck1"><strong><em><h4>I agree with terms and conditions</h4></em></strong></label>
+
+
+
+  </div>
+
+  
+	
+	
+	
+	
+	
+	
+	
+	<!--<tr>
+		<td>
+	
+		<p>
+		<label for="fname"><strong>FIRST NAME:</strong></label>
+		<input id="fname" name="first" type="text" placeholder="FIRST NAME"  pattern="[A-Za-z]{ ,1,}" title="Name should not contain any special characters " required>
+	    </p>
+	</td>
+</tr>
+<tr>
+	<td>
+		<p>
+		<label for="lname"><strong>LAST NAME:</strong></label>
+		<input id="lname" name="lastname" type="text" placeholder="LAST NAME" pattern="[A-Za-z]{ ,1,}" title="Name should not contain any special characters " required>
+	    </p>
+	</td>
+</tr>
+<tr>
+	<td>
+	    <p>
+
+		    
+		    <input id="Male" name="gender" type="radio" value="male" required>
+		    <label for="Male"><strong>MALE</strong></label>
+
+		    
+		    <input id="Female" name="gender" type="radio" value="female" required>
+		    <label for="Female"><strong>FEMALE</strong></label> 
+		    
+		    <input id="Others" name="gender" type="radio" value="others" required>
+		    <label for="Others"><strong>OTHERS</strong></label>
+		    </p>
+		</td>
+	</tr>
+	<tr>
+		<td>
+		    <p >
+
+			    <label for="email"><strong>EMAIL ID:</strong></label>
+			    <input name="username"  id="email" type="email" placeholder="your email" required>
+			</p>
+		</td>
+	</tr>
+<tr>
+	<td>
+			<p>
+			    <label for="Password"><strong>PASSWORD:</strong></label>
+			    <input name="Password"  id="Password" type="Password" placeholder="your Password" pattern=".{8,}"  title="Min 8 characters are required" required><br>
+		
+		 <label for="cPassword"><strong>CONFIRM PASSWORD:</strong></label>
+		    <input name="cPassword"  id="cPassword" type="Password" placeholder="confirm your Password" pattern=".{8,}"  title="Min 8 characters are required" required onkeyup="showHint(this.value)">
+
+<span id="txtHint" color="red"></span>	
+		    </p>
+		</td>
+	</tr>
+
+
+
+		
+	<tr>
+		<td>
+		    <p>
+		    <label for="dob"><strong>DATE OF BIRTH:</strong></label>
+		    <input id="dob" type="date" name="dob" required>
+		    
+		    </p>
+		</td>
+	</tr>
+	<tr>
+		<td>
+
+		    <p>
+		    	<label for="blood"><strong>BLOOD GROUP:</strong></label>
+		    	<select id="blood" name="blood" placeholder="your blood group" required>
+		    		<option>select</option>
+		    		<option>A+</option>
+		    		<option>A-</option>
+		    		<option>B+</option>
+		    		<option>B-</option>
+		    		<option>AB+</option>
+		    		<option>AB-</option>
+		    		<option>O+</option>
+		    		<option>O-</option>
+		    	</select>
+		    	
+		    </p>
+		</td>
+	</tr>
+	<tr>
+		<td>
+		    <p>
+
+
+		    
+		        <label for="address" id="te"><strong>ADDRESS:</strong></label>
+		        <textarea id="address" rows="10" column="50" placeholder="your address"
+		        required name="text"></textarea>
+		        
+
+		    </p>
+		</td>
+	</tr>
+	<tr>
+		<td>
+		    <p>
+		    	<label for="location"><strong>LOCATION:</strong></label>
+		    	<input id="location" type="text" name="location" placehoder="EX:kukatpally" required >
+		    </p>
+		</td>
+	</tr>
+
+	<tr>
+		<td>
+		    <p>
+		    	<label for="city"><strong>CITY:</strong></label>
+		    	<input id="city" type="text" name="city" placehoder="Ex:hyderabad" required >
+		    </p>
+		</td>
+	</tr>
+	<tr>
+		<td>
+		    <p>
+		    	<label for="phno"><strong>PHONE NUMBER:</strong></label>
+		        <input name="phno"  id="phno" type="text" placeholder="your phone number" pattern=".{10,11}" title="please enter your correct phone number" required>
+		    </p>
+		</td>
+	</tr>
+	<tr>
+		<td>
+		    <p>
+
+
+
+		    <input  id="I agree with terms and conditions" name="checkbox" type="checkbox" required>
+		    <label for="I agree with terms and conditions"><strong><em>I agree with terms and conditions</em></strong></label>
+		    </p>
+		</td>
+	</tr>-->
+	
+		   
+		    <button type="submit" value="submit" class="btn btn-danger btn-lg" id="s"><h4>REGISTER :)</h4></button>
+
+		    <!--<button >SIGN UP</a></button>-->
+	
+	</font>
+	</form>
+
+    </div>
+
+</body>
+</html>

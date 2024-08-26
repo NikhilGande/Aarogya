@@ -1,0 +1,180 @@
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="search1.css">
+	<link href="https://fonts.googleapis.com/css?family=Sirin+Stencil" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <link rel="stylesheet" type="text/css" href="bootstrap.css">
+
+        <title>AAROGYA</title>
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <a class="navbar-brand" href="frontend.html">AAROGYA</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+     <!-- <li class="nav-item active">
+        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+      </li>-->
+      <li class="nav-item active">
+        <a class="nav-link" href="about.html">ABOUT US</a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" href="contact.html">CONTACT US</a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" href="support.html">FEEDBACK</a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" href="terms.html">TERMS AND CONDITIONS</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          FEATURES
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+        <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="signup1.html">DONOR REGISTRATION</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="login.html">SEARCH FOR A BLOOD DONOR</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="search.html">SEARCH FOR A BLOOD BANK</a>
+          <div class="dropdown-divider"></div>
+          <!--<a class="dropdown-item" href="#">Something else here</a>-->
+        </div>
+      </li>
+      <!--<li class="nav-item">
+        <a class="nav-link disabled" href="#">Disabled</a>
+      </li>-->
+    </ul>
+<!--<form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    </form>-->
+    <li class="nav navbar-nav navbar-right">
+        <a class="nav-link" href="frontend2.html">LOGOUT</a>
+      </li>
+  </div>
+</nav>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+
+
+
+
+	<!--<tr>
+    <table width="100%" height="10%" border="0px">
+    	<tr>
+    		
+    		<td class="ch">
+    			<div class="dropdown">
+                    <button onclick="myFunction()" class="dropbtn">MENU</button>
+                        <div id="myDropdown" class="dropdown-content">
+                            <a href="signup1.html">DONOR REGISTRATION</a>
+                            <a href="login.html">SEARCH FOR A BLOOD DONOR</a>
+                            <a href="search.html">SEARCH FOR BLOOD BANKS</a>
+                        </div>
+                </div>
+    		
+    		<script>
+    		function myFunction() {
+    document.getElementById("myDropdown").classList.toggle("show");
+}
+
+
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn')) {
+
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+
+</script>   
+</td> 
+    		<td class="ch"><a href="about.html" text-decoration="none">ABOUT US</a></td>
+    		<td class="ch"><a href="contact.html" text-decoration="none">CONTACT</a></td>
+    		<td class="ch"><a href="support.html" text-decoration="none">FEEDBACK</a></td>
+        <td class="ch"><a href="terms.html" text-decoration="none">TERMS AND CONDITIONS</a></td>
+                <td class="ch"><a href="frontend2.html" text-decoration="none">LOGOUT</a></td>
+
+                 
+    		
+    	</tr>
+    </table>-->
+    <div id="s1">
+<div class="container" align="center">
+	<h1 id="sa" align="center">SEARCH FOR BLOOD DONORS</h1>
+	
+	<form action="donorret.php" method="post">
+	
+	<div class="form-group" class="s1">
+	   <label for="bld" class="sa1"><strong>BLOOD GROUP:</strong></label>
+	   <input id="bld" type="text" name="bloodgroup" required placeholder="correct bloodgroup" class="form-control">
+	</div>
+	<div class="form-group" class="s1">
+	    <label for="loc" class="sa1"><strong>LOCATION:</strong></label>
+	    <input id="loc" type="text" name="location" required placeholder="Ex:kukatpally" class="form-control">
+	</div>
+	<div class="form-group" class="s1">
+	    <label for="cit" class="sa1"><strong>CITY:</strong></label>
+	    <input id="cit" type="text" name="city" required placeholder="Ex:hyderabad" class="form-control">
+	</div>    
+	<!--<div id="ss1" align="center">
+        <form action="donorret.php" method="post">
+  <table>
+  	<tr>
+  		<td>
+	<p class="s1">
+		<label for="bld" class="sa1">BLOOD GROUP:</label>
+	    <input id="bld" type="text" name="bloodgroup" required placeholder="correct bloodgroup">
+	</p>
+</td>
+</tr>
+<tr>
+	<td>
+
+        
+	     
+    	
+	<p class="s1">
+	     
+    	<label for="loc" class="sa1">LOCATION:</label>
+	    <input id="loc" type="text" name="location" required placeholder="Ex:kukatpally">
+    </p>
+</td>
+</tr>
+<tr>
+	<td>
+		<p class="s1">
+        <label for="cit" class="sa1">CITY:</label>
+	    <input id="cit" type="text" name="city" required placeholder="Ex:hyderabad">
+        </p>
+    </td>
+</tr>-->
+<!--<p id="ifr">
+    <iframe width="360" height="215" src="https://www.youtube.com/embed/ezafVzfJw60?rel=0&amp;controls=0&amp;showinfo=0&autoplay=1" frameborder="0" allow=" encrypted-media" id="fr4"  align="center"></iframe>
+    </p>-->
+    <tr>
+    	<td>
+    <p align="center">
+    	<button type="submit" value="submit" class="btn btn-dark btn-sm">SEARCH</button>
+    </p>
+</td>
+</tr>
+</form>
+</div>
+		
+	
+
+</body>
+</html>
